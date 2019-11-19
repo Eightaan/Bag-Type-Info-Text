@@ -1,4 +1,4 @@
-LocalizationManager:add_localized_strings({["hud_int_hold_grab_the_bag"] = "Hold $BTN_INTERACT to grab the $BAG"})
+LocalizationManager:add_localized_strings({["hud_int_hold_grab_the_bag"] = "Hold $INTERACT to grab the $BAG"})
 
 local _add_string_macros_original = BaseInteractionExt._add_string_macros
 function BaseInteractionExt:_add_string_macros(macros, ...)
